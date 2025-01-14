@@ -1,18 +1,8 @@
 # Instroduction
 This is the github repository for the C6.5 Theories of Deep Learning Coursework Project *Physics-Informed Neural Networks: Tackling Complex
-PDEs Through Dimension Separation and Causality* by Zihan Zhou. The repository is forked from [Junwoo Cho's original repo](https://jwcho5576.github.io/spinn.github.io/) for his paper  [*Separable physics-informed neural networks*](https://arxiv.org/abs/2306.15969), published at Conference on Neural Information Processing Systems (NeurIPS 2023).
+PDEs Through Dimension Separation and Causality* by Zihan Zhou. The project report is available at `ZihanZhou_report.pdf`. This repository is forked from [Junwoo Cho's original repo](https://github.com/stnamjef/SPINN) for his paper  [*Separable physics-informed neural networks*](https://arxiv.org/abs/2306.15969), published at Conference on Neural Information Processing Systems (NeurIPS 2023).
+
+# Main Contribution
+This report investigates the introduction of causality into Separable Physics-Informed Neural Networks(SPINN), and tested the effect on Klein-Gordon equation and diffusion equation. THe relevant codes are available at `diffusion3d_causal.py` and `causal_spinn_kleingordon.ipynb`, where the causality parameter is set to `1e-3`. The results are summarised in the `Causal_results_KleinGordon` and `causal_results_diffusion` folders.
 
 
-# Navier-Stokes Reference Data
-Find the original NS data from here: https://github.com/PredictiveIntelligenceLab/CausalPINNs/tree/main/data
-
-# Citation
-
-```
-@article{cho2023separable,
-  title={Separable Physics-Informed Neural Networks},
-  author={Cho, Junwoo and Nam, Seungtae and Yang, Hyunmo and Yun, Seok-Bae and Hong, Youngjoon and Park, Eunbyung},
-  journal={Advances in Neural Information Processing Systems},
-  year={2023}
-}
-```
